@@ -23,6 +23,16 @@
     background-color: #e7e7e7;
 }
 
+.layout-rodape {
+    padding: 40px 0;
+
+    background-color: #484848;
+
+    color: #ffffff;
+
+    text-align: center;
+}
+
 /*#planos::after {*/
 /*    content: "";*/
 /*    display: block;*/
