@@ -4,6 +4,9 @@
 .plano {
     padding: 10px;
     border: 1px solid #95a4a5;
+
+    font-size:  1.4rem;
+    /* equivalente a 14px (tamanho da fonte padrão do projeto 14px dividido por 16px (tam padrão do navegador) = 0.875 */
 }
 
 .plano__cabecalho {
@@ -16,19 +19,21 @@
     text-align: center;
     line-height: 2.5;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 2em;
 }
 
 .plano__preco {
     margin: 20px 0;
 
     text-align: center;
-    font-size: 28px;
+    font-size: 2em;
 }
 
 .plano_caracteristicas {
     padding: 0;
     margin: 20px 0;
+
+    font-size: 1em;
 
     list-style: none;
 }
@@ -47,11 +52,12 @@
 
 .botao {
     display: inline-block;
-    padding: 12px 16px;
+    padding: 0.8em 1.2em;
 
     background-color: #bbb;
     color: #fff;
 
+    font-size: 1em;
     text-decoration: none;
 }
 

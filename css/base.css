@@ -4,6 +4,10 @@
 
 /* Não precisa mais do seletor acima porque o normalize do bootstrap já possui */
 
+html {
+    /*font-size: 100%; !*  100% do tamanho da fonte padrão do navegador que é 16px *\*/
+    font-size: 62.5%; /* aplicando a regra de três dividindo o tamanho padrão de 16px por 10, temos 62.5*\
+}
 body {
     /* Posicionamento */
     /* Display e Box Model */
@@ -14,7 +18,7 @@ body {
     /* Texto */
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 
-    /* Outrso */
+    /* Outros */
 }
