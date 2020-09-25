@@ -98,6 +98,7 @@
 
 .botao--principal {
     border-radius: 10px;
+
     background-color: #004b86;
 }
 
@@ -110,7 +111,7 @@
 \*--------------------*/
 
 .chamada {
-    font-size: 1.6rem;
+    font-size: 1.6rem; /* 1.6 * 10px = 16px */
     text-align: center;
 }
 
@@ -141,7 +142,7 @@
         padding-left: 10%;
         padding-right: 10%;
 
-        font-size: 2.2rem;
+        font-size: 2.2rem; /* 2.2 * 10px = 22px */
     }
 }
 
@@ -220,7 +221,6 @@
     height: 24px;
     border: 0;
 
-    background: none;
     background-image: url("../imagens/bars.png");
 
     outline: none;
@@ -251,11 +251,16 @@
         left: 0;
         bottom: 0;
 
+        display: none;
         width: 200px;
         padding: 20px;
         border-right: 1px solid #eee;
 
         background-color: #fbfbfb;
+    }
+
+    .menu.menu--exibindo {
+        display: block;
     }
 
     .menu__item {
