@@ -2,11 +2,29 @@
    PLANO
 \*--------------------*/
 .plano {
+    position: relative;
+
     padding: 10px;
     border: 1px solid #95a4a5;
 
     font-size:  1.4rem;
     /* equivalente a 14px (tamanho da fonte padrão do projeto 14px dividido por 16px (tam padrão do navegador) = 0.875 */
+}
+
+.plano--mais-popular::after {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    padding: 0 10px;
+
+    background-color: #c20303;
+    color: #ffffff;
+
+    font-size: 0.7142em; /* 10 / 14 = */
+    line-height: 2.5;
+
+    content: "MAIS POPULAR";
 }
 
 .plano__cabecalho {
